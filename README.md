@@ -5,3 +5,15 @@ We tried to generate the site in this [Figma](https://www.figma.com/design/kFwYo
 The result is in [blackpaws-site folder](./blackpaws-site)
 
 We also tried to generate the site with Figma make, you can find it here: TBD
+
+## How to launch the project
+
+In github page type `.`, this wiil open the online editor.
+
+Then in terminal type:
+
+```sh
+cd blackpaws-site
+npm install
+npm run dev
+```
