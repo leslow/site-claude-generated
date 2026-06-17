@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(npx sv *)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}  size=%{size_download}\\\\n\" http://localhost:5173/)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(kill %1)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" http://localhost:5173/)",
+      "Bash(curl -s http://localhost:5176/)",
+      "Bash(pkill -f \"vite dev\")",
+      "Bash(node *)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npx playwright *)"
+    ]
+  }
+}
